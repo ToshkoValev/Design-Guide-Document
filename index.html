@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Source Code Pro -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <!-- Nunito Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <!-- Lato -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>Design Document</title>
+</head>
+<body>
+    <header>
+        <h1 id="navbar__logo">Designing</h1>
+        <!-- We firstly start with the navbar -->
+        <nav class="navbar">
+            <div class="navbar__container">
+                <a href="/" id="navbar__statement">This is just the beginning. I am only getting started</a>
+                <ul>
+                    <li><a href="#target-colors">Colors</a></li>
+                    <li><a href="#target-fonts">Fonts</a></li>
+                    <li><a href="#target-text-styles">Text Styles</a></li>
+                    <li><a href="#target-buttons">Buttons</a></li> 
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <a class="anchor" name="#target-colors"></a>
+    <section id="colors">
+        <h1 class="title">Colors</h1>
+        <div class="flexbox-center">
+            <div class="colorbox" id="cool-yellow">
+                <p class="color-label">Cool Yellow</p>
+                <p class="color-hex">#FFC312</p>
+            </div>
+            <div class="colorbox" id="light-green">
+                <p class="color-label">Light Green</p>
+                <p class="color-hex">#C4E538</p>
+            </div>
+            <div class="colorbox" id="ocean-blue">
+                <p class="color-label">Ocean Blue</p>
+                <p class="color-hex">#12CBC4</p>
+            </div>
+            <div class="colorbox" id="almost-pink">
+                <p class="color-label">Almost Pink</p>
+                <p class="color-hex">#FDA7DF</p>
+            </div>
+            <div class="colorbox" id="almost-red">
+                <p class="color-label">Almost Red</p>
+                <p class="color-hex">#ED4C67</p>
+            </div>
+            <div class="colorbox" id="kinda-orange">
+                <p class="color-label">Kinda Orange</p>
+                <p class="color-hex">#F79F1F</p>
+            </div>
+            <div class="colorbox" id="green">
+                <p class="color-label">Green</p>
+                <p class="color-hex">#A3CB38</p>
+            </div>
+            <div class="colorbox" id="magenta">
+                <p class="color-label">Magenta</p>
+                <p class="color-hex">#D980FA</p>
+            </div>
+        </div>        
+    </section> 
+    <section id="fonts">
+        <a class="anchor" name="#target-fonts"></a>
+        <h1 class="fonts__title">Fonts</h1>
+        <div class="font__container">
+            <div class="font__panel">
+                <p class="font-label source-code-pro">Source Code Pro</p>
+                <p class="regular source-code-pro">The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold source-code-pro">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic source-code-pro">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+            <div class="font__panel">
+                <p class="font-label nunito-sans">Nunito Sans</p>
+                <p class="regular nunito-sans">The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold nunito-sans">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic nunito-sans">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+            <div class="font__panel">
+                <p class="font-label lato">Lato</p>
+                <p class="regular lato">The quick brown fox jumps over the lazy dog.</p>
+                <p class="bold lato">The quick brown fox jumps over the lazy dog.</p>
+                <p class="italic lato">The quick brown fox jumps over the lazy dog.</p>
+            </div>
+    </section>
+    <section id="text__styles">
+        <a class="anchor" name="#target-text-styles"></a>
+        <h1 class="text__title">Text Styles</h1>
+        <div class="main-page-heading">
+            <p>H1: Main page heading</p>
+        </div>
+        <div class="ul-text-styles">
+            <ul>
+                <li>Font Weight: 700 (bold)</li>
+                <li>Font-size: 26px</li>
+                <li>Font-family: Nunito Sans</li>
+            </ul>
+        </div>
+        <div class="subheading">
+            <p>H2: Subheading</p>
+        </div>
+        <div class="ul-text-styles">
+            <ul>
+                <li>Font Weight: 500</li>
+                <li>Font-size: 18px</li>
+                <li>Font-family: Lato</li>
+            </ul>
+        </div>
+        <div class="paragraph-text">
+            <p>P: Paragraph text</p>
+        </div>
+        <div class="ul-text-styles">
+            <ul>
+                <li>Font Weight: 400 (regular)</li>
+                <li>Font-size: 14px</li>
+                <li>Font-family: Times-New-Roman</li>
+            </ul>
+        </div>
+    </section>
+    <section id="buttons">
+        <a class="anchor" name="#target-buttons"></a>
+        <h1 class="buttons-title">Buttons</h1>
+        <div class="flexbox-center">
+            <div class="button-container" id="normal">
+                <button class="button1">Button</button>
+            </div>
+            <div class="button-container" id="normal">
+                <button class="button2">Button</button>
+            </div>
+            <div class="button-container" id="normal">
+                <button class="button3">Button</button>
+            </div>
+            <div class="button-container" id="normal">
+                <button class="button4 transition">Button</button>
+            </div>
+        </div>
+    </section>  
+</body>
+</html>
